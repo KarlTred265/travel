@@ -66,9 +66,7 @@ ALLOWED_HOSTS = [
    'localhost',
 ]
 
-CSRF_TRUSTED_ORIGINS = [
-    "travel-apis-89bd4494711c.herokuapp.com"
-    ]
+
 
 # Application definition
 
