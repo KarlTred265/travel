@@ -62,11 +62,14 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = 'DEV' in os.environ
 
 ALLOWED_HOSTS = [
-    ' ttps://travel-apis-89bd4494711c.herokuapp.com',
-    'localhost', 
-    os.environ.get('ALLOWED_HOST'),
 
+   os.environ.get('ALLOWED_HOST'),
+   'localhost',
 ]
+
+CSRF_TRUSTED_ORIGINS = [
+    "8000-karltred265-travel-e44lg718q5n.ws-eu101.gitpod.io"
+    ]
 
 if 'CLIENT_ORIGIN' in os.environ:
     CORS_ALLOWED_ORIGINS = [
