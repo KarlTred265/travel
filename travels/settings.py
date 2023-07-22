@@ -62,8 +62,10 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = 'DEV' in os.environ
 
 ALLOWED_HOSTS = [
+    'travel-apis-89bd4494711c.herokuapp.com',
+    'localhost', 
     os.environ.get('ALLOWED_HOST'),
-    'localhost', '127.0.0.1', 
+
 ]
 
 if 'CLIENT_ORIGIN' in os.environ:
