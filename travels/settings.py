@@ -68,7 +68,7 @@ ALLOWED_HOSTS = [
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    "8000-karltred265-travel-e44lg718q5n.ws-eu101.gitpod.io"
+    "travel-apis-89bd4494711c.herokuapp.com"
     ]
 
 if 'CLIENT_ORIGIN' in os.environ:
