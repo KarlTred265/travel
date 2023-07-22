@@ -62,7 +62,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = 'DEV' in os.environ
 
 ALLOWED_HOSTS = [
-    'travel-apis-89bd4494711c.herokuapp.com',
+    ' ttps://travel-apis-89bd4494711c.herokuapp.com',
     'localhost', 
     os.environ.get('ALLOWED_HOST'),
 
